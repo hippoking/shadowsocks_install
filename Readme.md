@@ -1,10 +1,16 @@
-![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
+
 # Auto install Shadowsocks Server
 
-shadowsocks.sh
+shadowsocks.sh (you'd better mainly use this script, python version)
 ===============
 - Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
 - https://teddysun.com/342.html
+
+
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+
 
 shadowsocks-libev.sh
 ===============
