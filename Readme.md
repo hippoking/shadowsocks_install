@@ -10,6 +10,8 @@ shadowsocks.sh (you'd better mainly use this script, python version)
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+systemctl enable shadowsocks
+service shadowsocks restart
 
 
 shadowsocks-libev.sh
