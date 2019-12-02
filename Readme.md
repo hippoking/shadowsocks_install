@@ -12,7 +12,7 @@ chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log  
 systemctl enable shadowsocks  
 service shadowsocks restart  
-  
+ 
 
 shadowsocks-libev.sh
 ===============
